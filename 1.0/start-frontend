@@ -3,7 +3,7 @@
 # Set -e to exit immediately if a command exits with a non-zero status
 set -e
 
-echo "Starting frontend application..."
+echo "Starting frontend applications..."
 
 # Navigate to the frontend directory
 cd "$(dirname "$0")/frontend" || {
