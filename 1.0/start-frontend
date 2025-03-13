@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Set -e to exit immediately if a command exits with a non-zero status
+set -e
+
+echo "Starting frontend application..."
+
+# Navigate to the frontend directory
+cd "$(dirname "$0")/frontend" || {
+    echo "Error: Failed to navigate to frontend directory"
+    exit 1
+}
+
+echo "Successfully changed to frontend directory: $(pwd)"
+echo "Starting Vue development server..."
+
+# Start the Vue development server
+npm run serve || {
+    echo "Error: Failed to start Vue development server"
+    exit 1
+}

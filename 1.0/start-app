@@ -1,0 +1,47 @@
+#!/bin/zsh
+
+# Script to start both frontend and backend services in parallel
+
+echo "Starting Kamboocha application..."
+echo "---------------------------------"
+
+# Launch the backend service
+echo "Starting backend service..."
+./start-backend &
+BACKEND_PID=$!
+echo "Backend service started with PID: $BACKEND_PID"
+
+# Launch the frontend service
+echo "Starting frontend service..."
+./start-frontend &
+FRONTEND_PID=$!
+echo "Frontend service started with PID: $FRONTEND_PID"
+
+echo "---------------------------------"
+echo "Both services are now running!"
+echo "Press Ctrl+C to stop all services"
+
+# Function to handle cleanup when script exits
+cleanup() {
+  echo "Stopping services..."
+  
+  if ps -p $BACKEND_PID > /dev/null; then
+    kill $BACKEND_PID
+    echo "Backend service stopped"
+  fi
+  
+  if ps -p $FRONTEND_PID > /dev/null; then
+    kill $FRONTEND_PID
+    echo "Frontend service stopped"
+  fi
+  
+  echo "All services stopped"
+  exit 0
+}
+
+# Trap SIGINT (Ctrl+C) and SIGTERM signals
+trap cleanup SIGINT SIGTERM
+
+# Wait for both processes
+wait
+
