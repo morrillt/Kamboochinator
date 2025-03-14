@@ -29,7 +29,8 @@ The end result? An executable set of instructions: [Milestone 1 Instructions](./
 
 # Progress Log
 
-## Creating Initial Instructions (2 days of work)
+## Creating Initial Instructions 
+> **Note:** It took 2 days of work just to discover the sequence of prompts that actually produce usable instructions, but voilà! The effort paid off.
 
 | Step Name                                                                    | Notes                                                                      | Requirements (other prompts used in generation of this step)                           |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
