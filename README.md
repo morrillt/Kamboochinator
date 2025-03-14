@@ -2,10 +2,7 @@
 
 Goal: Create a repeatable methodology for building applications as efficiently as possible with AI assistance. We will do this by building out the kambuchinator project.
 
-
-
-
-
+This is a living project. I am documenting as I go because writing helps me clarify learning :) 
 
 ## Documentation Index
 
