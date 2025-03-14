@@ -8,7 +8,7 @@ When you ask AI to do too much too fast, you get poor results. I tried this appr
 
 The effective alternative is providing step-by-step instructions that include:
 1. Clear guidance for the AI
-2. Instructions for you (the product designer) to efficiently QA what was built
+2. Instructions for you (the product designer) to efficiently QA what was built 
 
 This approach appears to be the most efficient way to build non-trivial web applications with AI assistance.
 
@@ -18,7 +18,7 @@ The key insight that's blowing my mind: **prompts that generate prompts that gen
 
 What makes this work is the recursive nature - starting with high-level prompts, then drilling down to increasingly granular levels until you have instructions that both:
 - Can be directly executed by AI
-- Can be easily verified by humans
+- Can be easily verified by humans ** we will automate this (obviously) later :)
 
 Through this process of building interconnected instructions, I've created:
 - A hierarchy of documentation that builds on itself
@@ -42,3 +42,8 @@ The end result? An executable set of instructions: [Milestone 1 Instructions](./
 | Developed [Milestone 1 Instructions](./07-Milestone1Instructions.md)         | Broke down into manageable, verifiable steps                               | `MasterPlan`, `InstructionsGenerator`, `ComponentSpecifications` `DirectoryStructure`  |
 | Reviewed implementation steps                                                | Amazing results                                                            | None                                                                                   |
 | Received positive feedback on project structure                              | Made me laugh when I uploaded all files to GPT-4 and asked for feedback    | None                                                                                   |
+
+## Notes
+### 3.14
+1. Now with all my instructions ready to go. Smooth is slow slow is fast?
+2.Time to move to building.
