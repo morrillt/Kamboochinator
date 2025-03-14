@@ -1,6 +1,8 @@
 # AI-Assisted Development Methodology
 
-**Goal:** Create a repeatable methodology for building applications as efficiently as possible with AI assistance. We will do this by building out the kambuchinator project. 
+**Primary Goal:** Create a repeatable methodology for building applications as efficiently as possible with AI assistance. We will do this by building out the kambuchinator project. 
+
+Secondary  Goal: The app dominates the Colombian internets and makes moneys selling kambucha while curing chrone's disease :)
 
 ## The Problem: with "Build Everything at Once" (YOLO) Instructions
 
