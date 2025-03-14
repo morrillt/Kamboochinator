@@ -14,7 +14,7 @@ This approach appears to be the most efficient way to build non-trivial web appl
 
 ## The Solution: Recursive Instruction Sets
 
-The key insight that's blowing my mind: **prompts that generate prompts that generate prompts**. I call these "instructions," and they're the critical element in effective AI-assisted coding.
+The key insight that's blowing my mind: **prompts that generate prompts that generate prompts**. I call these "recursive instructions," and they're currently the critical element in effective AI-assisted coding.
 
 What makes this work is the recursive nature - starting with high-level prompts, then drilling down to increasingly granular levels until you have instructions that both:
 - Can be directly executed by AI
