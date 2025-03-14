@@ -20,7 +20,7 @@
 - Check console for any errors during setup
 
 | Step | Expected Console Output | Actual Console Output | Status (✅/❌) |
-|------|-------------------------|-----------------------|---------------|
+| ---- | ----------------------- | --------------------- | ------------ |
 | 1    | `App running at:`       | `[user input]`        | ❌            |
 
 ## Step 2: Create Product Data Structure
@@ -32,13 +32,13 @@
 
 2. **Load Product Data**
    - Import and load product data in Vuex store
-   - Use the structure from `details.md` for consistency
+   - Use the structure from `05-ComponentSpecifications.md` for consistency
 
 ### Troubleshooting & QA
 - Verify data loading by logging product data in the console
 
 | Step | Expected Console Output | Actual Console Output | Status (✅/❌) |
-|------|-------------------------|-----------------------|---------------|
+| ---- | ----------------------- | --------------------- | ------------ |
 | 1    | `Product data loaded`   | `[user input]`        | ❌            |
 
 ## Step 3: Implement Basic Express Server with Test Routes
@@ -56,9 +56,9 @@
 ### Troubleshooting & QA
 - Verify server setup by running `node server/index.js` and accessing test routes
 
-| Step | Expected Console Output | Actual Console Output | Status (✅/❌) |
-|------|-------------------------|-----------------------|---------------|
-| 1    | `Server running on port`| `[user input]`        | ❌            |
+| Step | Expected Console Output  | Actual Console Output | Status (✅/❌) |
+| ---- | ------------------------ | --------------------- | ------------ |
+| 1    | `Server running on port` | `[user input]`        | ❌            |
 
 ## Step 4: Build /simplecss Route with Custom Styling
 
@@ -73,16 +73,16 @@
 ### Troubleshooting & QA
 - Verify route by navigating to `/simplecss` in the browser
 
-| Step | Expected Console Output | Actual Console Output | Status (✅/❌) |
-|------|-------------------------|-----------------------|---------------|
-| 1    | `Navigated to /simplecss`| `[user input]`       | ❌            |
+| Step | Expected Console Output   | Actual Console Output | Status (✅/❌) |
+| ---- | ------------------------- | --------------------- | ------------ |
+| 1    | `Navigated to /simplecss` | `[user input]`        | ❌            |
 
 ## Step 5: Develop Core Components (Product Cards, Quantity Selectors)
 
 ### Execution Instructions
 1. **Create ProductCard Component**
    - Implement product display logic in `src/core/components/ProductCard.vue`
-   - Ensure it handles container selection and quantity as per `details.md`
+   - Ensure it handles container selection and quantity as per `05-ComponentSpecifications.md`
 
 2. **Create QuantitySelector Component**
    - Implement quantity selection logic in `src/core/components/QuantitySelector.vue`
@@ -91,7 +91,7 @@
 - Verify components by rendering them in the SimpleCSS view
 
 | Step | Expected Console Output | Actual Console Output | Status (✅/❌) |
-|------|-------------------------|-----------------------|---------------|
+| ---- | ----------------------- | --------------------- | ------------ |
 | 1    | `ProductCard rendered`  | `[user input]`        | ❌            |
 
 ## Step 6: Implement Cart Functionality in Vuex
@@ -107,7 +107,7 @@
 - Verify cart functionality by adding products and checking state
 
 | Step | Expected Console Output | Actual Console Output | Status (✅/❌) |
-|------|-------------------------|-----------------------|---------------|
+| ---- | ----------------------- | --------------------- | ------------ |
 | 1    | `Product added to cart` | `[user input]`        | ❌            |
 
 </rewritten_file> 
