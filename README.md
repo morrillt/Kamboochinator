@@ -1,12 +1,12 @@
 # Kamboochinator Project Documentation
 
-Goal: Create a repeatable methodology for building applications as efficiently as possible with AI assistance. We will do this by building out the kambuchinator project.
+**Mission**: Create a repeatable methodology for building applications as efficiently as possible with AI assistance. We will do this by building out the kambuchinator project.
 
 This project uses an incremental, verification-based approach to AI-assisted development. Each milestone is broken down into specific, verifiable steps with clear Instructions for AI and a QA (HUMAN IN  THE LOOP) processes to ensure functionality. 
 
-Secondary Goal: The app dominates the Colombian internets and makes moneys selling kambucha while curing chrone's disease :)
+**Secondary Goal**: The app dominates the Colombian internets and makes moneys selling kambucha while curing chrone's disease :)
 
-This is a living project. I am documenting as I go because writing helps me clarify learning :) 
+> This is a living project. I am documenting as I go because writing helps me clarify learning :) 
 
 ## If you want to go deeper
 Check this out :)

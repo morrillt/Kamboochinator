@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "name": "Classic Ginger",
+        "description": "Our signature kombucha with a spicy ginger kick. Perfect for digestion and a natural energy boost.",
+        "price": 4.99,
+        "image": "/images/booch.jpg",
+        "category": "classic",
+        "ingredients": [
+            "Filtered Water",
+            "Organic Black Tea",
+            "Organic Cane Sugar",
+            "Organic Ginger",
+            "SCOBY (Symbiotic Culture of Bacteria and Yeast)"
+        ],
+        "nutritionalInfo": {
+            "servingSize": "8 fl oz (240ml)",
+            "calories": 35,
+            "sugar": "7g",
+            "probiotics": "2 billion CFU"
+        },
+        "containerOptions": [
+            {
+                "type": "can",
+                "volume": "12 oz",
+                "price": 4.99,
+                "inStock": true
+            },
+            {
+                "type": "bottle",
+                "volume": "16 oz",
+                "price": 5.99,
+                "inStock": true
+            }
+        ],
+        "featured": true,
+        "new": false
+    },
+    {
+        "id": 2,
+        "name": "Berry Bliss",
+        "description": "A refreshing blend of mixed berries with a hint of hibiscus. Rich in antioxidants and bursting with flavor.",
+        "price": 5.49,
+        "image": "/images/booch.jpg",
+        "category": "fruit",
+        "ingredients": [
+            "Filtered Water",
+            "Organic Green Tea",
+            "Organic Cane Sugar",
+            "Organic Mixed Berries (Strawberry, Blueberry, Raspberry)",
+            "Organic Hibiscus",
+            "SCOBY"
+        ],
+        "nutritionalInfo": {
+            "servingSize": "8 fl oz (240ml)",
+            "calories": 40,
+            "sugar": "8g",
+            "probiotics": "2 billion CFU"
+        },
+        "containerOptions": [
+            {
+                "type": "can",
+                "volume": "12 oz",
+                "price": 5.49,
+                "inStock": true
+            },
+            {
+                "type": "bottle",
+                "volume": "16 oz",
+                "price": 6.49,
+                "inStock": true
+            }
+        ],
+        "featured": false,
+        "new": true
+    },
+    {
+        "id": 3,
+        "name": "Citrus Sunrise",
+        "description": "A tangy blend of orange, lemon, and lime that will brighten your day. Packed with vitamin C and probiotics.",
+        "price": 4.99,
+        "image": "/images/booch.jpg",
+        "category": "fruit",
+        "ingredients": [
+            "Filtered Water",
+            "Organic White Tea",
+            "Organic Cane Sugar",
+            "Organic Orange",
+            "Organic Lemon",
+            "Organic Lime",
+            "SCOBY"
+        ],
+        "nutritionalInfo": {
+            "servingSize": "8 fl oz (240ml)",
+            "calories": 38,
+            "sugar": "7.5g",
+            "probiotics": "2 billion CFU"
+        },
+        "containerOptions": [
+            {
+                "type": "can",
+                "volume": "12 oz",
+                "price": 4.99,
+                "inStock": true
+            },
+            {
+                "type": "bottle",
+                "volume": "16 oz",
+                "price": 5.99,
+                "inStock": false
+            }
+        ],
+        "featured": true,
+        "new": false
+    }
+]

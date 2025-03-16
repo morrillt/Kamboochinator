@@ -1,10 +1,27 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/simplecss">Simple CSS Store</router-link>
   </nav>
   <router-view/>
 </template>
+
+<script>
+import { mapActions } from 'vuex';
+
+export default {
+  name: 'App',
+  methods: {
+    ...mapActions('products', ['fetchProductsLocal'])
+  },
+  created() {
+    // Load products when the app starts
+    this.fetchProductsLocal();
+    console.log('App initialized, products loaded');
+  }
+}
+</script>
 
 <style>
 #app {
